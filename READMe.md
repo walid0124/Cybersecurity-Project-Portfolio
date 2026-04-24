@@ -13,6 +13,7 @@
 
 ## 🚀 Featured Cybersecurity Projects
 ---
+
 ### Enterprise Vulnerability Scanning & Host Enumeration
 **Tools Used:** Kali Linux, Nmap, Searchsploit, Exploit-DB  
 **Target Environment:** Ubuntu Linux (192.168.0.2)
@@ -36,21 +37,24 @@ The goal of this lab was to conduct comprehensive host enumeration and vulnerabi
 <img width="831" height="626" alt="image" src="https://github.com/user-attachments/assets/626fc9e6-8b29-44eb-8067-b71289f5addc" />
 *Figure 2: Using Nmap Scripting Engine to detect an active SMB DoS vulnerability.*
 
+### Host Discovery
 <img width="953" height="714" alt="image" src="https://github.com/user-attachments/assets/8d188313-93a6-4d75-8c92-f07c123f3742" />
 *Figure 3 Comprehensive host discovery extracting NetBIOS naming conventions and SSH host keys for forensic documentation.*
-
----
 
 ### 🔑 Key Findings & Outcomes
 - **Actionable Intelligence:** Successfully linked raw network scan data to known CVE databases.
 - **Risk Assessment:** Mapped the target's service footprint without credentials, highlighting the danger of misconfigured SMB and VNC services.
 - **Forensic Readiness:** Demonstrated proficiency in active reconnaissance techniques required for incident response.
 
+---
+
 ### [Vulnerability Management & System Hardening Lab](./Vulnerability-Lab/)
 *Performed automated scans and manual hardening on a virtualized enterprise network.*
 - **The Challenge:** Identify and remediate "Critical" and "High" CVEs in a Windows 10 environment.
 - **The Solution:** Used **Nessus** for discovery and **DISA STIG** checklists for manual remediation.
 - **Result:** Successfully reduced the attack surface by 85% and achieved a "Pass" on the STIG compliance report.
+
+---
 
 ### [Network Traffic Analysis & Incident Response](./Network-Defense-Lab/)
 *Analyzed malicious traffic patterns and configured SIEM alerts.*
