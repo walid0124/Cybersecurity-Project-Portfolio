@@ -12,7 +12,7 @@
 ---
 
 ## 🚀 Featured Cybersecurity Projects
-###Enterprise Vulnerability Scanning & Host Enumeration
+### Enterprise Vulnerability Scanning & Host Enumeration
 **Tools Used:** Kali Linux, Nmap, Searchsploit, Exploit-DB  
 **Target Environment:** Ubuntu Linux (192.168.0.2)
 
