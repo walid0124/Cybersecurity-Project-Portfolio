@@ -12,16 +12,16 @@
 ---
 
 ## 🚀 Featured Cybersecurity Projects
-# Enterprise Vulnerability Scanning & Host Enumeration
+###Enterprise Vulnerability Scanning & Host Enumeration
 **Tools Used:** Kali Linux, Nmap, Searchsploit, Exploit-DB  
 **Target Environment:** Ubuntu Linux (192.168.0.2)
 
 ---
 
-## 🎯 Project Objective
+### 🎯 Project Objective
 The goal of this lab was to conduct comprehensive host enumeration and vulnerability scanning on a simulated target environment. I focused on identifying system configurations, open ports, and exploitable vulnerabilities to support forensic investigations and simulate adversarial reconnaissance.
 
-## 🛠️ Methodology & Execution
+### 🛠️ Methodology & Execution
 - **Network Mapping:** Identified the target system IP and MAC address to establish a baseline.
 - **Port Discovery:** Executed TCP SYN (`-sS`) and TCP Connect (`-sT`) scans to identify open ports (22, 139, 445, 5901, 6001).
 - **Service Fingerprinting:** Utilized aggressive scanning (`-A`) to identify OpenSSH 6.0p1, Samba 3.6.6, and VNC protocol 3.8.
@@ -30,7 +30,7 @@ The goal of this lab was to conduct comprehensive host enumeration and vulnerabi
 
 ---
 
-## 📸 Lab Evidence
+### 📸 Lab Evidence
 
 ### Service Version Fingerprinting
 ![Nmap Scan Result](./nmap-scan.png)
@@ -42,7 +42,7 @@ The goal of this lab was to conduct comprehensive host enumeration and vulnerabi
 
 ---
 
-## 🔑 Key Findings & Outcomes
+### 🔑 Key Findings & Outcomes
 - **Actionable Intelligence:** Successfully linked raw network scan data to known CVE databases.
 - **Risk Assessment:** Mapped the target's service footprint without credentials, highlighting the danger of misconfigured SMB and VNC services.
 - **Forensic Readiness:** Demonstrated proficiency in active reconnaissance techniques required for incident response.
