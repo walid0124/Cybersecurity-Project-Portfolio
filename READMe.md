@@ -2,6 +2,16 @@
 **BAS Cybersecurity Candidate @ George Mason University (Dec 2026)**  
 *Secret Clearance-Eligible | Focus: Vulnerability Management & GRC*
 
+---
+
+## 🛠️ Technical Skill Stack
+- **Security Tools:** Nessus, Splunk (SIEM), Wireshark, Nmap, Metasploit.
+- **Compliance & Frameworks:** NIST 800-53, DISA STIGs, RMF, MITRE ATT&CK.
+- **Systems & Networking:** Windows Active Directory, Linux (Kali/Ubuntu), TCP/IP.
+
+---
+
+## 🚀 Featured Cybersecurity Projects
 # Enterprise Vulnerability Scanning & Host Enumeration
 **Tools Used:** Kali Linux, Nmap, Searchsploit, Exploit-DB  
 **Target Environment:** Ubuntu Linux (192.168.0.2)
@@ -36,17 +46,6 @@ The goal of this lab was to conduct comprehensive host enumeration and vulnerabi
 - **Actionable Intelligence:** Successfully linked raw network scan data to known CVE databases.
 - **Risk Assessment:** Mapped the target's service footprint without credentials, highlighting the danger of misconfigured SMB and VNC services.
 - **Forensic Readiness:** Demonstrated proficiency in active reconnaissance techniques required for incident response.
-
----
-
-## 🛠️ Technical Skill Stack
-- **Security Tools:** Nessus, Splunk (SIEM), Wireshark, Nmap, Metasploit.
-- **Compliance & Frameworks:** NIST 800-53, DISA STIGs, RMF, MITRE ATT&CK.
-- **Systems & Networking:** Windows Active Directory, Linux (Kali/Ubuntu), TCP/IP.
-
----
-
-## 🚀 Featured Cybersecurity Projects
 
 ### [Vulnerability Management & System Hardening Lab](./Vulnerability-Lab/)
 *Performed automated scans and manual hardening on a virtualized enterprise network.*
