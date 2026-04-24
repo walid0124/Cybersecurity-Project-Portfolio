@@ -12,12 +12,10 @@
 ---
 
 ## 🚀 Featured Cybersecurity Projects
+---
 ### Enterprise Vulnerability Scanning & Host Enumeration
 **Tools Used:** Kali Linux, Nmap, Searchsploit, Exploit-DB  
 **Target Environment:** Ubuntu Linux (192.168.0.2)
-
----
-
 ### 🎯 Project Objective
 The goal of this lab was to conduct comprehensive host enumeration and vulnerability scanning on a simulated target environment. I focused on identifying system configurations, open ports, and exploitable vulnerabilities to support forensic investigations and simulate adversarial reconnaissance.
 
@@ -28,17 +26,18 @@ The goal of this lab was to conduct comprehensive host enumeration and vulnerabi
 - **Vulnerability Identification:** Deployed the Nmap Scripting Engine (`--script=vuln`) to detect an **SMB-related Denial of Service vulnerability**.
 - **Exploit Research:** Used `searchsploit` to cross-reference discovered services with known CVEs in the Exploit Database.
 
----
-
 ### 📸 Lab Evidence
 
 ### Service Version Fingerprinting
-![Nmap Scan Result](./nmap-scan.png)
+<img width="828" height="621" alt="image" src="https://github.com/user-attachments/assets/1d3c9364-31d7-4e3d-b599-5591522f036f" />
 *Figure 1: Identifying vulnerable versions of OpenSSH and Samba.*
 
 ### Automated Vulnerability Detection
-![NSE Vulnerability Result](./nse-vuln.png)
+<img width="831" height="626" alt="image" src="https://github.com/user-attachments/assets/626fc9e6-8b29-44eb-8067-b71289f5addc" />
 *Figure 2: Using Nmap Scripting Engine to detect an active SMB DoS vulnerability.*
+
+<img width="953" height="714" alt="image" src="https://github.com/user-attachments/assets/8d188313-93a6-4d75-8c92-f07c123f3742" />
+*Figure 3 Comprehensive host discovery extracting NetBIOS naming conventions and SSH host keys for forensic documentation.*
 
 ---
 
